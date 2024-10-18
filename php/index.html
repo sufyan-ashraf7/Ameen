@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+       
+    </head>
+<style>
+    table{
+        border-collapse: collapse;
+        width: 500px;
+    }
+</style>
+    <body>
+        <script>
+            let arr = [
+                ['ali',"cpism"],
+                ['alishar',"cpism"],
+                ['alishba',"cpism"],
+                ['aliyan',"cpism"],
+                ['ali',"cpism"],
+                ['alishar',"cpism"],
+                ['alishba',"cpism"],
+                ['aliyan',"cpism"],
+
+            ]
+            document.write("<table border='1'>")
+            for(let key of arr){
+                
+                document.write("<tr>")
+for(let i=0;i<key.length;i++){
+    document.write("<td>"+key[i]+"</td>")
+}
+                // console.log(key[0])
+                document.write("</tr>")
+            }
+            document.write("</table>")
+        </script>
+    </body>
+</html>
